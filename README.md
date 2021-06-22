@@ -10,9 +10,9 @@ The user dashboard contains a table that allows users to filter rescue animals b
 The dashboard also includes a geolocation chart and a pie chart to update dynamically with filter options. 
 The screencasts below provides a demonstration of the dashboard’s filter options.
 </br>
-<img src="Dashboard_Screencast_Part1.gif" width="800" height="400" />
-<img src="Dashboard_Screencast_Part2.gif" width="800" height="400" />
+<img src="README_Images/Dashboard_Screencast.gif" width="800" height="400" />
 </br>
+
 <h2>Motivation</h2>
 The project exists to simplify searching for rescue animals. Non-technical users can easily query the mongo database for rescue dogs. 
 The widgets show the percentage of rescue dogs belonging to each breed. The geolocation chart shows the dog’s name and location. 
@@ -49,3 +49,46 @@ The pymongo module allows users to establish database connections, work with col
 Finally, install jupyter to load and execute jupyter notebooks. 
 </br>
 4. <code>pip install jupyterlab</code> 
+</br>
+</br>
+<h3>Getting Started</h3>
+Follow the steps below to begin using this project.
+</br>
+<html>
+   <body>
+      <h4>Set up the database if it is not running.</h4>
+      <ol type = "1">
+         <li>Download the dataset included with the project files.</li>
+         <li>Initialize MongoDB with the command <code>mongod_ctl start-noauth</code> (note: write down the port number)</li>
+         <li>Navigate to the directory with the dataset <code>cd /directory/path</code></li>
+         <li><code>mongoimport --port insert port --type csv --db AAC --collection animals --headerline --file ./aac_shelter_outcomes.csv</code><br>
+              <img src="README_Images/mongoImport.png" width="800" height="200" /></li>
+         <li>Create the admin account<br>
+             <img src="README_Images/createAdmin.png" width="800" height="200" /></li>
+         <li>Enable user authentication for the database<br>
+            <img src="README_Images/enableAuthentication.png" width="800" height="200" /></li>
+         <li>Create the user account. (Note: Remember to change the password in the dashboard script when instantiating the CRUD module).
+             <img src="README_Images/createUser.png" width="800" height="200" /></li>
+      </ol>
+   </body>
+</html>
+</br>
+</br>
+<html>
+   <body>
+      <h4>Open the dashboard script in jupyter.</h4>
+      <ol type = "1">
+         <li>Type jupyter notebook at the terminal</li>
+         <li>Locate and open the project in jupyter (be sure the CRUD module is in the same folder as the dashboard script).</li>
+         <li>Change the password in the line of code below.<br>
+              <img src="README_Images/changePassword.png" width="800" height="200" /></li>
+         <li>Execute the dashboard script.</li>
+      </ol>
+   </body>
+</html>
+</br>
+</br>
+<h3>Usage and Features</h3>
+
+
+ 
