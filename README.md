@@ -5,18 +5,6 @@ based on the rescue type. Grazioso Salvare trains dogs for three rescue types, w
 The table below describes the characteristics of dogs that train for each rescue type.
 </br>
 </br>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-</head>
-<body>
 <img src="README_Images/Breeds_Table.png" width="600" height="200" style="width:50%;"/>
 </br>
 </br>
