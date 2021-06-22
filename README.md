@@ -5,6 +5,18 @@ based on the rescue type. Grazioso Salvare trains dogs for three rescue types, w
 The table below describes the characteristics of dogs that train for each rescue type.
 </br>
 </br>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
 <img src="README_Images/Breeds_Table.png" width="600" height="200" style="width:50%;"/>
 </br>
 </br>
@@ -27,7 +39,9 @@ A non-relational database was great for this project to allow Grazioso Salvare t
 Non-relational databases also enhance search performance. MongoDB will also enable scalability as the business grows. 
 MongoDB was a good option for use with Python due to the pymongo module discussed below. 
 </br>
+</br>
 Install MongoDB from the <a href="https://docs.mongodb.com/manual/installation/">download page</a>.
+</br>
 </br>
 Next, install dash dependencies. Dash is an open-source Python framework used primarily for building analytical web applications (Tutorialpoint, 2021). Dash was a powerful, user-friendly option for developing this data-driven application. Dash enabled the development of data visualizations and interactivity in Grazioso Salvare’s dashboard. 
 </br>
@@ -91,8 +105,8 @@ Follow the steps below to begin using this project.
 The dashboard logo includes an anchor to <a href="https://www.snhu.edu/">my university's homepage</a>. 
 Click the logo to launch the website. You will see the image below as the homepage. 
 </br>
-<img src="README_Images/homepage.png" width="800" height="200" />
 </br>
+<img src="README_Images/homepage.png" width="800" height="200" />
 The dashboard filters rescue dogs by rescue type as shown in the project demonstration. 
 The dashboard also shows the animal’s name and location in the geolocation chart. 
 The dashboard utilizes two methods from the CRUD.py module. 
@@ -174,7 +188,7 @@ This project simplified database querying and data visualizations for non-techni
    </body>
 </html>
 <h4>Contact: Sarah Spence</h4>
-</br>
+
 <h3 style="text-align:center">References</h3>
 Tutorialspoint. (2021). Dash Framework. Tutorialspoint. https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_dash_framework.htm 
 
