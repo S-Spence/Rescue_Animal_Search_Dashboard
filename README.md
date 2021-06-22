@@ -182,4 +182,4 @@ This project simplified database querying and data visualizations for non-techni
 Tutorialspoint. (2021). Dash Framework. Tutorialspoint. https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_dash_framework.htm 
 
  <h3>Additional Credits</h3>
- My university provided the table describing the characteristics of rescue animals. 
+ My university provided the table describing the characteristics of rescue animals and the dataset. 
