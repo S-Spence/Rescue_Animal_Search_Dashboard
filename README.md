@@ -101,9 +101,9 @@ The “filtered_rescue_dogs” method returns the query results based on the res
 Code examples of these methods are below. The CRUD module also contains create, update, and delete methods that may be incorporated into the dashboard in future releases. 
 </br>
 </br>
-<img src="README_Images/code1.png" width="800" height="200" />
+<img src="README_Images/code1.png" width="800" height="100" />
 </br>
-<img src="README_Images/code2.png" width="800" height="200" />
+<img src="README_Images/code2.png" width="800" height="300" />
 
 <h2>Project Steps and Challenges</h2>
 <html>
@@ -175,7 +175,7 @@ This project simplified database querying and data visualizations for non-techni
 </html>
 <h4>Contact: Sarah Spence</h4>
 </br>
-<h3 style="text-align:center>References</h3>
+<h3 style="text-align:center">References</h3>
 Tutorialspoint. (2021). Dash Framework. Tutorialspoint. https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_dash_framework.htm 
 
  
