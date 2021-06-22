@@ -5,7 +5,7 @@ based on the rescue type. Grazioso Salvare trains dogs for three rescue types, w
 The table below describes the characteristics of dogs that train for each rescue type.
 </br>
 </br>
-<img src="README_Images/Breeds_Table.png" width="400" height="400" class="center"/>
+<img src="README_Images/Breeds_Table.png" width="600" height="200" style="width:50%;"/>
 </br>
 </br>
 The user dashboard contains a table that allows users to filter rescue animals by their compatible rescue type. 
@@ -27,12 +27,12 @@ A non-relational database was great for this project to allow Grazioso Salvare t
 Non-relational databases also enhance search performance. MongoDB will also enable scalability as the business grows. 
 MongoDB was a good option for use with Python due to the pymongo module discussed below. 
 </br>
-1.Install MongoDB from the <a href="https://docs.mongodb.com/manual/installation/">download page</a>.
+Install MongoDB from the <a href="https://docs.mongodb.com/manual/installation/">download page</a>.
 </br>
 Next, install dash dependencies. Dash is an open-source Python framework used primarily for building analytical web applications (Tutorialpoint, 2021). Dash was a powerful, user-friendly option for developing this data-driven application. Dash enabled the development of data visualizations and interactivity in Grazioso Salvare’s dashboard. 
 </br>
 </br>
-2. Install Dash and its dependencies with the following commands:
+Install Dash and its dependencies with the following commands:
 <ul>
   <li><code>pip install dash</code></li>
   <li><code>pip install jupyter-dash</code></li>
@@ -47,13 +47,13 @@ Next, install pymongo. The pymongo module provides user-friendly compatibility b
 The pymongo module allows users to establish database connections, work with collections and documents, work with encryption, and manipulate MongoDB cursor objects.
 </br>
 </br>
-3. <code>pip install pymongo</code>
+<code>pip install pymongo</code>
 </br>
 </br>
 Finally, install jupyter to load and execute jupyter notebooks. 
 </br>
 </br>
-4. <code>pip install jupyterlab</code> 
+<code>pip install jupyterlab</code> 
 </br>
 <h3>Getting Started</h3>
 Follow the steps below to begin using this project.
@@ -75,7 +75,6 @@ Follow the steps below to begin using this project.
       </ol>
    </body>
 </html>
-</br>
 <html>
    <body>
       <h4>Open the dashboard script in jupyter.</h4>
@@ -88,7 +87,6 @@ Follow the steps below to begin using this project.
       </ol>
    </body>
 </html>
-</br>
 <h3>Usage and Features</h3>
 The dashboard logo includes an anchor to <a href="https://www.snhu.edu/">my university's homepage</a>. 
 Click the logo to launch the website. You will see the image below as the homepage. 
@@ -96,20 +94,16 @@ Click the logo to launch the website. You will see the image below as the homepa
 <img src="README_Images/homepage.png" width="800" height="200" />
 </br>
 The dashboard filters rescue dogs by rescue type as shown in the project demonstration. 
-</br>
 The dashboard also shows the animal’s name and location in the geolocation chart. 
-</br>
 The dashboard utilizes two methods from the CRUD.py module. 
 The “read_all” method brings in all results from the database. 
 The “filtered_rescue_dogs” method returns the query results based on the rescue type. 
 Code examples of these methods are below. The CRUD module also contains create, update, and delete methods that may be incorporated into the dashboard in future releases. 
 </br>
+</br>
 <img src="README_Images/code1.png" width="800" height="200" />
 </br>
 <img src="README_Images/code2.png" width="800" height="200" />
-</br>
-<img src="README_Images/code3.png" width="800" height="200" />
-</br>
 
 <h2>Project Steps and Challenges</h2>
 <html>
@@ -140,7 +134,7 @@ Adding a horizontal scrollbar to the table and resizing the widgets to match the
 Some of these practices include modularizing code, maintaining code documentation, commenting code, and following styling conventions consistent with the rest of the project. 
 The CRUD Python module in this project followed the PEP8 style guide. 
 The methods in this module are reusable and can work with other databases by changing the database name and authentication in the class constructor.</p>
-</br>
+
 <h3>How do you approach a problem as a computer scientist?</h3>
 <p>The incremental development approach worked well for this project. 
 I started by creating the database, setting up database authentication, and incorporating indexes to enhance query speed. 
@@ -148,7 +142,7 @@ I developed the CRUD python module next using pymongo to create a layer between 
 Importing the CRUD module in my dashboard script provided a convenient way to return query results to the user. 
 The iterative and incremental approach used in the Agile development methodology has worked well in this project and projects from previous courses. 
 I will apply MongoDB’s more advanced features, such as data aggregation pipelines, to create databases that meet user needs in the future.</p>
-</br> 
+
 <h3>What do computer scientists do, and why does it matter? How does this type of project help companies accomplish their work?</h3>
 <p>Well, my answer to this question may be biased. 
 However, I believe computer scientists make the world a better place. 
@@ -160,7 +154,6 @@ Security specialists keep data safe and protect countries from cyberattacks.
 Data analysts help identify trends in historical data that we may not have understood otherwise. 
 Furthermore, computer scientists are in demand by almost every industry thanks to the endless possibilities of technology. 
 This project simplified database querying and data visualizations for non-technical users.<p>
-</br>
 
 <h2>Roadmap/Additional Features</h2>
 <html>
@@ -180,10 +173,9 @@ This project simplified database querying and data visualizations for non-techni
       </ol>
    </body>
 </html>
+<h4>Contact: Sarah Spence</h4>
 </br>
-<h3>Contact: Sarah Spence</h3>
-</br>
-<h3>References</h3>
+<h3 style="text-align:center>References</h3>
 Tutorialspoint. (2021). Dash Framework. Tutorialspoint. https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_dash_framework.htm 
 
  
