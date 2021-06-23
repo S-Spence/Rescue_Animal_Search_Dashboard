@@ -1,7 +1,7 @@
 <h1>Rescue Animal Search Dashboard</h1>
 
-This application generates a user dashboard for Grazioso Salvare’s users to search for rescue animals 
-based on the rescue type. Grazioso Salvare trains dogs for three rescue types, water, mountain, and disaster. Certain breeds, genders, and ages are better for each rescue type. 
+This application generates a user dashboard for a theoretical company’s users to search for rescue animals 
+based on the rescue type. The company trains dogs for three rescue types, water, mountain, and disaster. Certain breeds, genders, and ages are better for each rescue type. 
 The table below describes the characteristics of dogs that train for each rescue type.
 </br>
 </br>
@@ -23,7 +23,7 @@ The user dashboard allows users to quickly find trained rescue animals for water
 </br>
 <h2>Tools and Installation</h2>
 Install MongoDB if the database is not running. The database will not be continuously running since this is a school project. 
-A non-relational database was great for this project to allow Grazioso Salvare to change the data type associated with animal information. 
+A non-relational database was great for this project to allow the company to change the data type associated with animal information. 
 Non-relational databases also enhance search performance. MongoDB will also enable scalability as the business grows. 
 MongoDB was a good option for use with Python due to the pymongo module discussed below. 
 </br>
@@ -31,7 +31,7 @@ MongoDB was a good option for use with Python due to the pymongo module discusse
 Install MongoDB from the <a href="https://docs.mongodb.com/manual/installation/">download page</a>.
 </br>
 </br>
-Next, install dash dependencies. Dash is an open-source Python framework used primarily for building analytical web applications (Tutorialpoint, 2021). Dash was a powerful, user-friendly option for developing this data-driven application. Dash enabled the development of data visualizations and interactivity in Grazioso Salvare’s dashboard. 
+Next, install dash dependencies. Dash is an open-source Python framework used primarily for building analytical web applications (Tutorialpoint, 2021). Dash was a powerful, user-friendly option for developing this data-driven application. Dash enabled the development of data visualizations and interactivity in the user dashboard. 
 </br>
 </br>
 Install Dash and its dependencies with the following commands:
