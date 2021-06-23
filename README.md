@@ -165,7 +165,7 @@ This project simplified database querying and data visualizations for non-techni
       <ol type = "1">
          <li><bold>Administrator authentication:</bold> This feature will allow employees to delete, update, and create documents in the database via the user interface. 
              There should be a separate login for these privileges so clients cannot alter the database’s state. </li>
-         <li<bold>Create:</bold> The create feature will allow company administrators to add additional animals via the user interface. 
+         <li><bold>Create:</bold> The create feature will allow company administrators to add additional animals via the user interface. 
              This feature will allow non-technical users to manage the database.</li>
          <li><bold>Update:</bold> The update feature will allow company administrators to update animal information via the user interface. 
              This feature will also help non-technical users manage the database.</li>
