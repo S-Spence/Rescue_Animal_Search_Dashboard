@@ -24,7 +24,7 @@ The user dashboard allows users to quickly find trained rescue animals for water
 <h2>Tools and Installation</h2>
 Install MongoDB if the database is not running. The database will not be continuously running since this is a school project. 
 A non-relational database was great for this project to allow the company to change the data type associated with animal information. 
-Non-relational databases also enhance search performance. MongoDB will also enable scalability as the business grows. 
+Non-relational databases also enhance search performance. MongoDB will enable scalability as the business grows. 
 MongoDB was a good option for use with Python due to the pymongo module discussed below. 
 </br>
 </br>
