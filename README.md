@@ -165,11 +165,11 @@ This project simplified database querying and data visualizations for non-techni
       <ol type = "1">
          <li><bold>Administrator authentication:</bold> This feature will allow Grazioso Salvare employees to delete, update, and create documents in the database via the user interface. 
              There should be a separate login for these privileges so clients cannot alter the database’s state. </li>
-         <li<bold>Create:</bold> The create feature will allow Grazioso Salvare administrators to add additional animals via the user interface. 
+         <li<bold>Create:</bold> The create feature will allow company administrators to add additional animals via the user interface. 
              This feature will allow non-technical users to manage the database.</li>
-         <li><bold>Update:</bold> The update feature will allow Grazioso Salvare administrators to update animal information via the user interface. 
+         <li><bold>Update:</bold> The update feature will allow company administrators to update animal information via the user interface. 
              This feature will also help non-technical users manage the database.</li>
-         <li><bold>Delete:</bold> The delete feature will allow Grazioso Salvare administrators to delete animals from the database via the user interface. 
+         <li><bold>Delete:</bold> The delete feature will allow company administrators to delete animals from the database via the user interface. 
              This feature will help non-technical users manage the database. </li>
          <li><bold>The ability to book a rescue animal via the user interface:</bold> 
              This feature will change the animal’s status to unavailable after booking.</li>
