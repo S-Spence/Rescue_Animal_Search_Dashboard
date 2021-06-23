@@ -132,13 +132,13 @@ Adding a horizontal scrollbar to the table and resizing the widgets to match the
 </br>
 
 <h2>Project Reflection Questions</h2>
-<h3>How do you write programs that are maintainable, readable, and adaptable?</h3>
+<h4>How do you write programs that are maintainable, readable, and adaptable?</h4>
 <p>Coding best practices outline ways for developers to maintain readable and adaptable code. 
 Some of these practices include modularizing code, maintaining code documentation, commenting code, and following styling conventions consistent with the rest of the project. 
 The CRUD Python module in this project followed the PEP8 style guide. 
 The methods in this module are reusable and can work with other databases by changing the database name and authentication in the class constructor.</p>
 
-<h3>How do you approach a problem as a computer scientist?</h3>
+<h4>How do you approach a problem as a computer scientist?</h4>
 <p>The incremental development approach worked well for this project. 
 I started by creating the database, setting up database authentication, and incorporating indexes to enhance query speed. 
 I developed the CRUD python module next using pymongo to create a layer between the database and the user dashboard. 
@@ -146,7 +146,7 @@ Importing the CRUD module in my dashboard script provided a convenient way to re
 The iterative and incremental approach used in the Agile development methodology has worked well in this project and projects from previous courses. 
 I will apply MongoDB’s more advanced features, such as data aggregation pipelines, to create databases that meet user needs in the future.</p>
 
-<h3>What do computer scientists do, and why does it matter? How does this type of project help companies accomplish their work?</h3>
+<h4>What do computer scientists do, and why does it matter? How does this type of project help companies accomplish their work?</h4>
 <p>Well, my answer to this question may be biased. 
 However, I believe computer scientists make the world a better place. 
 Computer scientists are responsible for some of this century’s best innovations. 
