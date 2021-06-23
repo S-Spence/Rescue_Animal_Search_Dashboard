@@ -163,7 +163,7 @@ This project simplified database querying and data visualizations for non-techni
    <body>
       <h4>Additional features to add to the dashboard are listed below.</h4>
       <ol type = "1">
-         <li><bold>Administrator authentication:</bold> This feature will allow Grazioso Salvare employees to delete, update, and create documents in the database via the user interface. 
+         <li><bold>Administrator authentication:</bold> This feature will allow employees to delete, update, and create documents in the database via the user interface. 
              There should be a separate login for these privileges so clients cannot alter the database’s state. </li>
          <li<bold>Create:</bold> The create feature will allow company administrators to add additional animals via the user interface. 
              This feature will allow non-technical users to manage the database.</li>
