@@ -127,8 +127,8 @@ The development of this project was straightforward and did not generate many ob
 A few syntax errors in the dash script took additional time to find because they were in a callback and did not generate error messages. 
 The error arose because the callback used to implement the filter options had an additional comma at the end. 
 The dashboard loaded. However, it did not filter options properly. 
-The other challenge was resizing the widgets and chart to be the same width as the page to avoid additional whitespace between the logo section and the chart. 
-Adding a horizontal scrollbar to the table and resizing the widgets to match the table width resolved this issue. 
+Another challenge was resizing the widgets and chart to be the same width as the page to avoid additional whitespace between the logo section and the chart. 
+Adding a horizontal scrollbar to the table and resizing the widgets to match the table width resolved the formatting issues. 
 </br>
 
 <h2>Project Reflection Questions</h2>
