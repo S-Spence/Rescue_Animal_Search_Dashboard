@@ -147,16 +147,15 @@ The iterative and incremental approach used in the Agile development methodology
 I will apply MongoDB’s more advanced features, such as data aggregation pipelines, to create databases that meet user needs in the future.</p>
 
 <h4>What do computer scientists do, and why does it matter? How does this type of project help companies accomplish their work?</h4>
-<p>Well, my answer to this question may be biased. 
-However, I believe computer scientists make the world a better place. 
+<p> 
 Computer scientists are responsible for some of this century’s best innovations. 
 The internet and big data simplified research and made vast amounts of information readily available to anyone interested. 
 Advances in computer architecture have made it possible for data scientists to store increasing amounts of data and run computationally expensive neural networks on data to gain valuable insight about companies, civilizations, and the world around us. 
 Most people cannot go one day without encountering a device designed by a software developer. 
 Security specialists keep data safe and protect countries from cyberattacks. 
 Data analysts help identify trends in historical data that we may not have understood otherwise. 
-Furthermore, computer scientists are in demand by almost every industry thanks to the endless possibilities of technology. 
-This project simplified database querying and data visualizations for non-technical users.<p>
+Furthermore, computer scientists are in demand in almost every industry thanks to the endless possibilities of technology. 
+This type of project makes it simpler for non-technical users to gain insight from data.<p>
 
 <h2>Roadmap/Additional Features</h2>
 <html>
